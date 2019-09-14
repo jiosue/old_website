@@ -25,10 +25,11 @@
                 <div class="col s12">
 					<div  class="card-panel teal">
                         <table>
-                            <td style="width: 25%;"><h5 class="center"><span class='bold'><a style="color: black;" target="_blank" href="misc/Resume.pdf">Résumé</a></span></h5></td>
-                            <td style="width: 25%;"><h5 class="center"><span class='bold'><a style="color: black;" href="#coursework">Coursework</a></span></h5></td>
-                            <td style="width: 25%;"><h5 class="center"><span class='bold'><a style="color: black;" href="#projects">Projects</a></span></h5></td>
-                            <td style="width: 25%;"><h5 class="center"><span class='bold'><a style="color: black;" href="#work">Other Work</a></span></h5></td>
+                            <td style="width: 20%;"><h5 class="center"><span class='bold'><a style="color: black;" target="_blank" href="misc/CV.pdf">CV</a></span></h5></td>
+                            <td style="width: 20%;"><h5 class="center"><span class='bold'><a target="_blank" style="color: black;" href="https://github.com/jiosue">GitHub</a></span></h5></td>
+                            <td style="width: 20%;"><h5 class="center"><span class='bold'><a target="_blank" style="color: black;" href="https://scholar.google.com/citations?user=JXw0_fEAAAAJ&hl=en">Google Scholar</a></span></h5></td>
+                            <td style="width: 20%;"><h5 class="center"><span class='bold'><a style="color: black;" href="#projects">Projects</a></span></h5></td>
+                            <td style="width: 20%;"><h5 class="center"><span class='bold'><a style="color: black;" href="#publications">Publications</a></span></h5></td>
                         </table>
 					</div>
 				</div>
@@ -40,8 +41,7 @@
                             <i class="material-icons">perm_contact_calendar</i>
 							<span class="card-title"><span class='bold'>About Me</span></span>
 							<img class='headshot' src="images/headshot.jpg" />
-							<p class="text">I am currently a class of 2019 undergraduate at the Massachusetts Institute of Technology (MIT)
-							in Cambridge, MA intending on a major in physics and a minor in computer science.</p>
+							<p class="text">I am a class of 2019 undergraduate graduate at the Massachusetts Institute of Technology (MIT) in Cambridge, MA with a major in physics and a minor in computer science. I will be beginning my PhD in Fall 2020. I am currently working at <a target="_blank" href="https://qcware.com">QC Ware, Corp.</a> researching near-term quantum algorithms.</p>
 						</div>
 					</div>
 					<div  class="card blue-grey darken-1">
@@ -49,8 +49,8 @@
                             <i class="material-icons">email</i>
 							<span class="card-title"><span class='bold'>Contact</span></span>
 							<i style="float: right;" class="large material-icons">textsms</i>
-							<p class="text">jiosue@mit.edu</p>
-							<p class="text">(301)-980-9525</p>
+							<p class="text">joe.iosue@yahoo.com</p>
+                            <p class="text">joe.iosue@qcware.com</p>
 						</div>
 					</div>
 				</div>
@@ -189,42 +189,64 @@
 					</div>
 				</div>
 				<div class="col s12 m6">
+                    <div class="card blue-grey darken-1">
+                        <div class="card-content white-text">
+                            <i style="float: left;" class="material-icons">code</i>
+                            <p align='center' id="title" class='bold'>QUBOVert - <a target="_blank" class="waves-effect waves-light btn" href="https://github.com/jiosue/QUBOVert">GitHub</a></p>
+                           <div class="col s12 m6">
+                                <a target="_blank" href="https://lgtm.com/projects/g/jiosue/QUBOVert/context:python"><img src="https://img.shields.io/lgtm/grade/python/g/jiosue/QUBOVert.svg?logo=lgtm&logoWidth=18" /></a>
+                                <a target="_blank" href="https://badge.fury.io/py/qubovert"><img src="https://badge.fury.io/py/qubovert.svg" /></a>
+                            </div>
+                            <p class="text">
+                                I created QUBOVert, a Python package for dealing with common binary optimization problems. It is particularly designed to aid in converting optimization problems to a form that can be solved with quantum annealers and quantum optimization algorithms. I also used it as a way to learn more about best software practices, such as continuous integration, code coverage, code quality, etc.
+                            </p>
+                        </div>
+                    </div>
 					<div class="card blue-grey darken-1">
 						<div class="card-content white-text">
-                            <i style="float: left;" class="material-icons">view_headline</i>
-                            <p align='center' id="title" class='bold'>Numerical Steppers - <a target="_blank" class="waves-effect waves-light btn" href="misc/Steppers.pdf">PDF file</a></p>
+                            <i style="float: left;" class="material-icons">code</i>
+                            <p align='center' id="title" class='bold'>Numerical Steppers - <a target="_blank" class="waves-effect waves-light btn" href="https://github.com/jiosue/QuadratureCandJulia">GitHub</a></p>
                             <p class="text">
                                 I provide a general overview of implicit versus explicit and single- versus multi-step steppers
                                 for numerically solving differential equations. I implemented dozens of methods in 
                                 <a target="_blank" href="https://julialang.org/">Julia</a> which are included at the end of the paper
-                                (see the link). I explore several interesting systems, including geodesics around Schwarzschild and Kerr
-                                black holes, motion of a Kapitza pendulum, E cross B drift of a charged particle in perpendicular
-                                electric and magnetic fields, etc.
+                                (see the link). I explore several interesting systems, including geodesics around Schwarzschild and Kerr black holes, motion of a Kapitza pendulum, E cross B drift of a charged particle in perpendicular electric and magnetic fields, etc. See the report and code on the GitHub page.
                             </p>
 						</div>
 					</div>
-					<div class="card blue-grey darken-1">
-						<div class="card-content white-text">
+                    <div  class="card blue-grey darken-1">
+                        <div class="card-content white-text">
                             <i style="float: left;" class="material-icons">code</i>
-                            <p align='center' id="title" class='bold'>Methods in C - <a target="_blank" class="waves-effect waves-light btn" href="">ZIP file</a></p>
+                            <p align='center' id="title" class='bold'>Plot.py - <a class="waves-effect waves-light btn" href="https://github.com/jiosue/PlotFile">GitHub</a></p>
                             <p class="text">
-                                Work in progress.
+                                An extension of the python matplotlib module; reads from .plt file and plots the data.
+                                The purpose is to have all the formatting options given in the matplotlib module available
+                                to the user from the convenience of a text file.
                             </p>
-						</div>
-					</div>
+                        </div>
+                    </div>
 					<div class="card blue-grey darken-1">
 						<div class="card-content white-text">
                             <i style="float: left;" class="material-icons">games</i>
-                            <p align='center' id="title" class='bold'>PenguinDrop.py - <a target="_blank" class="waves-effect waves-light btn" href="misc/PenguinDrop.zip">ZIP file</a></p>
+                            <p align='center' id="title" class='bold'>PenguinDrop - <a target="_blank" class="waves-effect waves-light btn" href="https://github.com/jiosue/PythonGames/tree/master/PenguinDrop">GitHub</a></p>
                             <img src="images/PenguinDrop.PNG"/>
                             <p class="text">
                                 Use the arrow keys and spacebar to shoot down penguins and protect your iceberg. If too many penguins
-                                fall onto the ice, it will sink!
+                                fall onto the ice, it will sink! I created both a desktop version in Python and an Android Application in Java.
                             </p>
 						</div>
 					</div>
 				</div>
                 <div class="col s12 m6">
+                    <div  class="card blue-grey darken-1">
+                        <div class="card-content white-text">
+                            <i style="float: left;" class="material-icons">code</i>
+                            <p align='center' id="title" class='bold'>qSonify - <a target="_blank" class="waves-effect waves-light btn" href="https://github.com/jiosue/qSonify">GitHub</a></p>
+                            <p class="text">
+                                Developed a Python framework for sonifying quantum algorithms in the hopes of learning important properties of the algorithm through hearing rather than seeing. Please see the <a target="_blank" href="https://github.com/jiosue/qSonify/blob/master/report.pdf">report</a> on the GitHub page.
+                            </p>
+                        </div>
+                    </div>
 					<div  class="card blue-grey darken-1">
 						<div class="card-content white-text">
                             <i style="float: left;" class="material-icons">android</i>
@@ -235,21 +257,28 @@
                             </p>
 						</div>
                     </div>
-                    <div  class="card blue-grey darken-1">
-						<div class="card-content white-text">
+                    <div class="card blue-grey darken-1">
+                        <div class="card-content white-text">
                             <i style="float: left;" class="material-icons">code</i>
-                            <p align='center' id="title" class='bold'>Plot.py - <a class="waves-effect waves-light btn" href="misc/Plot.zip">ZIP file</a></p>
+                            <p align='center' id="title" class='bold'>C++ Quantum Computer - <a target="_blank" class="waves-effect waves-light btn" href="https://github.com/jiosue/Quantum-Computer-Simulator-with-Algorithms">GitHub</a></p>
                             <p class="text">
-                                An extension of the python matplotlib module; reads from .plt file and plots the data.
-                                The purpose is to have all the formatting options given in the matplotlib module available
-                                to the user from the convenience of a text file.
+                                To learn about quantum computing, quantum algorithms, and C++, I coded a quantum computer simulator and implemented many quantum algorithms, such as Shor's factorization algorithm, Grover's search algorithm, etc.
                             </p>
-						</div>
-					</div>
+                        </div>
+                    </div>
+                    <div class="card blue-grey darken-1">
+                        <div class="card-content white-text">
+                            <i style="float: left;" class="material-icons">code</i>
+                            <p align='center' id="title" class='bold'>Mathematica Notebooks - <a target="_blank" class="waves-effect waves-light btn" href="https://github.com/jiosue/MathematicaNotebooks">GitHub</a></p>
+                            <p class="text">
+                                Various Mathematica Notebooks showing cool physical phenomena.
+                            </p>
+                        </div>
+                    </div>
 					<div  class="card blue-grey darken-1">
 						<div class="card-content white-text">
                             <i style="float: left;" class="material-icons">games</i>
-                            <p align='center' id="title" class='bold'>RocketAce.py - <a target="_blank" class="waves-effect waves-light btn" href="misc/RocketAce.zip">ZIP file</a></p>
+                            <p align='center' id="title" class='bold'>RocketAce.py - <a target="_blank" class="waves-effect waves-light btn" href="https://github.com/jiosue/PythonGames/tree/master/RocketAce">GitHub</a></p>
                             <img src="images/RocketAce.png"/>
                             <p class="text">
                                 Use the arrow keys to control the acceration of a "rocket". The goal is to navigate around
@@ -265,37 +294,30 @@
             <div class="row">
 				<div class="col s12">
 					<div  class="card-panel teal lighten-4">
-						<h4 id="work" class='center'><span class='bold'>Other Work</span></h4>
-					</div>
-				</div>
-                <div class="col s12">
-					<div  class="card-panel teal">
-						<p class='center'><span class='bold'><em>This is not meant to be a comprehensive list</em></span></p>
+						<h4 id="publications" class='center'><span class='bold'>Publications</span></h4>
 					</div>
 				</div>
 				<div class="col s12 m6">
 					<div  class="card blue-grey darken-1">
 						<div class="card-content white-text">
-                            <img style="float: left; width: 30px; height: 30px; margin: 0" class="icon icons8-Hockey" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAADn0lEQVR4Xu2aj7EMQRDGvxcBMiACRIAIEAEiQASIABEggkcEiAARIAJEQP2qdqu62t71/Ol9d3u7U/XqXtXe9PR801/3N713ppWPs5XvXxsAWwSsHIGNAisPgC0JbhTYKHBaCNyTdG629EfS5X1bPDUKvJd012z4taQnawGAk/7lNntT0te1APBQ0huz2Z+SrkYMPyUKfJF0w2z4qaRXawGAk/7uNntN0o85ASDZgPjtIdNa9FkX7v2W9Gn4/0PkTMdzEt1LM//z4FdosoUCz4bMure8TKwMGITki9Cr+i9w+pbvjyS9LTFTAwAb/uh4VrKG/w6RcWeIjpb5fg6RB//tuFJqvwYAEH2Q4bGksD5XrENUPTbffyeJilA0agCgxtqwR2UhPOA4yYZPO8gNhCWfKLRL5iF04JQyhvfr/uBXke0aAP46i2zCAkDiseOWA8DnjJq1d22mWvp6QzVOeACKEN7zpZq1d5nxtKymVo0TxwZAk/Q9pQhokr6ZAFDKSHCUIU6DzzHRkSBHIcQnCZISakdN9E1RAHusP44i6ZsJQHGtHQDyN7UeAJqlbw8AZH1fylqrQNioCDJss/TtAeCYhFCz9O0BAJ7D5eud9e/bwF0iqmV0Sd8eAMa5z4fLkKVDyUYIe2Qr83tGl/TNAGC0gQqz12EfGZy0vQ6TLzJGl/TNBCBjM7U2uqXv0gHolr5LBiBF+i4ZAJ/8irq+Ecd61FhkO/M5ktdL6Sbpu8QIoNKwed9PKOr6Rqdw7BFAA3ZKNxR3fZcIAJ0kyh1/u97sFHd95wAAp2hCjlfhaI05ntfcRPeuX0sBXj7sfds6x26dzaqub+RPDQD+3Vtke67nVV3fyIlSAHwNjuy2Ph87SbbNbt/49vYR/vOrBICp7gsiBCrQ7vIvJUts4ohvsk7NS5e+LTpgSoFRm8f7fMlGpiIimjeL9G0BwHPfczDayC46RPNSur4RF0vC1TvqS1C0kVYAfNsrRfq2RMAhAPBNT/xOkb4tAJDobLdnbgr4pgc+p9Z+C0IJBXwSpETx66s5kiAK0/+uh9JHJWptonYrwakyCAiEKX2/rDKIzSntnyp8WijAnIsSQt6/tEvPrjAoocA41+eCqML0PCfsKYNZneSdvtQAcFGRQMKDXrNwvpUCdh48xUGuw71vibCLrB7fIHPi4W/7ekIrA4DM9Q9uq5YCB3c424ENgGxEl2Zvi4ClnVi2v1sEZCO6NHv/AGsDxUG4MOAbAAAAAElFTkSuQmCC"/>
-							<p align='center' id="title" class='bold'>Ice Hockey</p>
+							<p id="title" class='bold'>Probing ground-state phase transitions through quench dynamics</p>
                             <p class="text">
-                                Since freshman year, I have both played and refereed intramural ice hockey
-                                at MIT. Sophomore year, I also became a skate guard for general open skate.
+                                Phys. Rev. Lett. 123, 115701.<br/>
+                                arXiv:1809.06377.
                             </p>
 						</div>
 					</div>
                 </div>
                 <div class="col s12 m6">
-					<div class="card blue-grey darken-1">
-						<div class="card-content white-text">
-							<img style="float: left; width: 30px; height: 30px; margin: 0" class="icon icons8-Hand-Planting" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAFdklEQVRoQ93ajZHcRBAF4HYEQATgCAwRgCMAIsCOAIgAiACIAIgAiACIwCYCQwRABFDflt7W3JykHe2PzsVUbd2dNBq91/36Z2bvUf1PxqPXlMebVeXzxyi+14nIO1X1RVV9UFV+/6Gqnj0EERZ80r34t0EgX1fVZ9PcPPN+VQ0benjiAqB3q+qTqvposmI/7e+q+qmqvlqRyXeT5X+eyJATT7j+tKp+HTHGJURYkCWN3yfAL6sKeIM8yARR1z6vqu87UAzxYkZGnvulqp7PPDPL6xIisdrHE4klwyHEK2TXz/1yiovHVYUUbzBGiCD/za09EmuOvEz8APhGVQEdryH44XTtVVV9O8lrV2kxVCwoRk6NWLnNRqz96SQtEgxJsnprIe6uLi0L0nwA9DkfSJmHznmjnQ8kr0Ra7iFoPUFOju81z50y0nh6W1jJC0lCVgKqHTxAOuTknjm99iNPzyFGgn9O8vLs8Lgk2POS6HzOgoiyMs/wCu9Ipz6R47/TQtKvtUKA5GRG5CJjz4mjePhI9BpEgLXwX5McEsitNQHiFd7JffJC5scuzfKSGEFAcUwd4U0GMZCVZI5yvgYRC3u5F7Iu0KzbE2oBekZgIyfGEjOZAxeSfTFEzvpaGetL54c51yISMmSUNqUFwWs+xj+TZ9x3TUywtqE4IuhvXgZ8zsNJEse6dE0ikRIQ6kCA5zrgwJFF6oR7SRQB5z7waR57jMhJMAzAg4dxCyJtbKz9nhYnCYA3EtieI0/k+8oupsjuTh+2FxHWfnsK0EglXgE20kLA3yQzJ6k0mPfS/Z5EBCgApCPbJGiBVwxdd01mcr9NxWTKGIv7lL2IAAsEKwMpDfs5V8F5yiepNvJcLZR7EumTgbS7Fqfi5RjMp/YlD0EEQJ4QsORGQmnhpW8y2zz2JtJuaQNWXUnNUIOQkck2jT2JJN2yOOCCV8zwRjJUuunhLe6edUQsIAGwgE2hzM+2/Sc7PVvGvZ5qyU239kjyPgKsnc53TTbZDiAle+nf2l3l7LO3IsLatrCq8qbzqQ5l9itz+507U88hkvOrpEdWTsB6sYBOpXY99WNT8DaTxROv2O8sjjkiAQpUwCZl9o1gu3B2eMCTUSr48LHnAsps3FazWU+k3zNk7Zz+pTVvz6/MSV0gJ8M8chg6XBtwVTrjRTI9kewRZJmckAy85zgFIQHqeW3INQnd24O0wOaIuJ89RdoIBWqLRLKTCyHPAnJW1W4AWydb6tVgb/fHQOSAgJW3EMlLkkKtpY2Pl8VTkoB3IjjXtrdgrSWdw5ROwE8SfrnmkS2SGpnLGEDwNtmpLUYI2oP0pyM6YPM91zaQzprTFchoT/ckskQ25192iE5GJAzX2s0W4CmmfrYH5ci/WCNCDslCXnDvLGnEDYNzcnSa6bzVAl+T9aE/OxXs5IB9stgIrtScLcSTkRgs9WfkXeY4A3t8C2kFFCIsPXfGFZACPk1luoBRAgzmNPJwHHsLIkm9vCmQ861VjnlSQJPi/a3g8vqIF0Mgx6mHXm6NSCwLiP3ByEt6a8o2CCXW2vs8gByvja7NezmEQN7vsyeNbR0BIrFBh2SQ/gu50fwPfHq21I48PyqjloBEwDh32p85j5CDiUmBbRq0iAyCkFpgsKiidKqgjYJu5/UEeKD/HvIwvyfSfqfh/loaRIbH8mUnQo78r0EIjnzhA8MigbCea+Nz4MzyI22Jl3qRKozEJYSslX8aGCKwRuQcCXimJbS1SWwJSAKM4TPs3XN2iKeIAkXH6aHWut6LCdzCIz1BCSOH1zzUptlsxGTGszzQv+wWHlkj1NcRnsv51ilPr97fg0gAyHI8kX9futY2eDb9XmSVh3z4P6q1gpBKDJqKAAAAAElFTkSuQmCC" />
-							<p align='center' id="title" class='bold'>Landscape</p>
+                    <div  class="card blue-grey darken-1">
+                        <div class="card-content white-text">
+                            <p id="title" class='bold'>A Jacobi Diagonalization and Anderson Acceleration Algorithm For Variational Quantum Algorithm Parameter Optimization</p>
                             <p class="text">
-                                For two years in high school, I worked at Meadows Farms, Inc. in Germantown, Maryland.
+                                arXiv:1904.03206
                             </p>
-						</div>
-					</div>
-				</div>
+                        </div>
+                    </div>
+                </div>
 			</div>
             
 		</div>		
@@ -310,15 +332,16 @@
                         and <em><a href="https://icons8.com">Icons8</a></em>.                        
                     </p>
 					<p style="margin-bottom: 0;" class="grey-text text-lighten-4">Background picture taken by Joe:</p>
-					<p id="indent" style="margin-top: 0;" class="grey-text text-lighten-4"><a target="_blank" href="images/background.JPG">"Cambridge looking into Boston"</a></p>
+					<p id="indent" style="margin-top: 0;" class="grey-text text-lighten-4"><a target="_blank" href="images/background.JPG">Cambridge looking into Boston</a></p>
 				</div>
 				<div class="col l4 offset-l2 s12">
                     <h5 class="white-text">Quick Locate</h5>
 					<ul>
-						<li><a target="_blank" class="grey-text text-lighten-3" href="misc/Resume.pdf">Resume</a></li>
-                        <li><a class="grey-text text-lighten-3" href="#coursework">Coursework</a></li>
+						<li><a target="_blank" class="grey-text text-lighten-3" href="misc/CV.pdf">CV</a></li>
+                        <li><a class="grey-text text-lighten-3" target="_blank" href="https://github.com/jiosue">GitHub</a></li>
+                        <li><a class="grey-text text-lighten-3" target="_blank" href="https://scholar.google.com/citations?user=JXw0_fEAAAAJ&hl=en">Google Scholar</a></li>
 						<li><a class="grey-text text-lighten-3" href="#projects">Projects</a></li>
-                        <li><a class="grey-text text-lighten-3" href="#work">Other Work</a></li>
+                        <li><a class="grey-text text-lighten-3" href="#publications">Publications</a></li>
                         <li><a class="grey-text text-lighten-3" href="#top">Top</a></li>
 					</ul>
 				</div>
