@@ -16,84 +16,32 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
         <script> 
             $(function(){
+                $("#header").load("header.html");
                 $("#aboutme").load("aboutme.html"); 
                 $("#coursework").load("coursework.html"); 
                 $("#projects").load("projects.html"); 
                 $("#publications").load("publications.html"); 
+                $("#footer").load("footer.html"); 
             });
         </script> 
 	</head>
 
 	<body>
+
         <a href="#top" id="topBtn">Top</a>
         
 		<div class="container">
-
-		    <div id="top" class="row">
-				<div class="col s12">
-					<div  class="card-panel teal lighten-4">
-						<h1 class='center'><span class='bold'>Joseph Iosue</span></h1>
-					</div>
-				</div>
-                <div class="col s12">
-					<div  class="card-panel teal">
-                        <table>
-                            <td style="width: 12%;"><h5 class="center"><span class='bold'><a style="color: black;" target="_blank" href="misc/CV.pdf">CV</a></span></h5></td>
-                            <td style="width: 16%;"><h5 class="center"><span class='bold'><a target="_blank" style="color: black;" href="https://github.com/jiosue">GitHub</a></span></h5></td>
-                            <td style="width: 19%;"><h5 class="center"><span class='bold'><a target="_blank" style="color: black;" href="https://scholar.google.com/citations?user=JXw0_fEAAAAJ&hl=en">GScholar</a></span></h5></td>
-                            <td style="width: 17%;"><h5 class="center"><span class='bold'><a target="_blank" style="color: black;" href="https://www.linkedin.com/in/joseph-iosue-886bb2104/">LinkedIn</a></span></h5></td>
-                            <td style="width: 17%;"><h5 class="center"><span class='bold'><a style="color: black;" href="#projects">Projects</a></span></h5></td>
-                            <td style="width: 19%;"><h5 class="center"><span class='bold'><a style="color: black;" href="#publications">Publications</a></span></h5></td>
-                        </table>
-					</div>
-				</div>
-			</div>
-
+            <div id="header"></div>
             <div id="aboutme"></div>
-
             <div id="coursework"></div>
-
             <div id="projects"></div>
-
             <div id="publications"></div>
-
-
-
-			<!-- </div> -->
 		</div>
-        
+
 	</body>
 
 	<footer id="footer" class="page-footer">
-		<div class="container">
-			<div class="row">
-				<div class="col l6 s12">
-					<h5 class="white-text">Joseph Iosue</h5>
-                    <p style="margin-bottom: 0;" class="grey-text text-lighten-4">
-                        Icons from <em><a target="_blank" href="http://materializecss.com/">Materialize</a></em>
-                        and <em><a href="https://icons8.com">Icons8</a></em>.                        
-                    </p>
-					<p style="margin-bottom: 0;" class="grey-text text-lighten-4">Background picture taken by Joe:</p>
-					<p id="indent" style="margin-top: 0;" class="grey-text text-lighten-4"><a target="_blank" href="images/background.JPG">Cambridge looking into Boston</a></p>
-				</div>
-				<div class="col l4 offset-l2 s12">
-                    <h5 class="white-text">Quick Locate</h5>
-					<ul>
-						<li><a target="_blank" class="grey-text text-lighten-3" href="misc/CV.pdf">CV</a></li>
-                        <li><a class="grey-text text-lighten-3" target="_blank" href="https://github.com/jiosue">GitHub</a></li>
-                        <li><a class="grey-text text-lighten-3" target="_blank" href="https://scholar.google.com/citations?user=JXw0_fEAAAAJ&hl=en">Google Scholar</a></li>
-                        <li><a class="grey-text text-lighten-3" target="_blank" href="https://www.linkedin.com/in/joseph-iosue-886bb2104/">LinkedIn</a></li>
-						<li><a class="grey-text text-lighten-3" href="#projects">Projects</a></li>
-                        <li><a class="grey-text text-lighten-3" href="#publications">Publications</a></li>
-					</ul>
-				</div>
-			</div>
-		</div>
-		<div class="footer-copyright">
-			<div class="container">
-                <p style="margin-bottom: 0;" class="grey-text text-lighten-4">Site updated June 2017</p>
-			</div>
-		</div>
+        <div id="footer"></div>
 	</footer>
 
 </html>
